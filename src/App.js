@@ -9,7 +9,7 @@ function App() {
 
 useEffect(() => {
 
-  axios.get('http://localhost:5000/api').then(response => {
+  axios.get('https://essai-node-react.onrender.com/api').then(response => {
     setData(response.data)
     console.log(response.data)
     
